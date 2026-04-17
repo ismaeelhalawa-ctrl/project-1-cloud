@@ -39,10 +39,10 @@ jobs:
       - name: Log in to Docker Hub
         uses: docker/login-action@v3
         with:
-          username: Ismaeel
+          username: ismaeelhalawa
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build & Push
         run: |
-          docker build -t Ismaeel/project(1)Cloud:latest .
-          docker push Ismaeel/project(1)Cloud:latest
+          docker build -t ismaeelhalawa/project(1)Cloud:latest .
+          docker push ismaeelhalawa/project(1)Cloud:latest
