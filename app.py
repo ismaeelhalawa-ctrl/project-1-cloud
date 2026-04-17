@@ -10,4 +10,5 @@ def home():
     return jsonify({"status": "ok", "message": "Hello from gp1-demo!"})
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080) # nosec 
+    app.run(host="0.0.0.0", port=8080) # nosec   
+    
